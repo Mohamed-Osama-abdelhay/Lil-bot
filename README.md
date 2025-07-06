@@ -58,7 +58,7 @@ In `ESP32.ino` and `ESP8266.ino`, modify the following:
 ```cpp
 const char* ssid = "YOUR_SSID";
 const char* password = "YOUR_PASSWORD";
-
+```
 3. Wiring
 Motor driver connected to Robot main board.
 
