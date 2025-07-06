@@ -59,19 +59,19 @@ In `ESP32.ino` and `ESP8266.ino`, modify the following:
 const char* ssid = "YOUR_SSID";
 const char* password = "YOUR_PASSWORD";
 ```
-3. Wiring
+### 3. Wiring
 Motor driver connected to Robot main board.
 
 ESP32/ESP8266 TX/RX to Arduino Master.
 
 I2C (SDA/SCL) or UART between Master and Slave Arduinos.
 
-4. Monitor and Control
+### 4. Monitor and Control
 Use Serial Monitor for debugging.
 
 ESP32/8266 may host a web interface or subscribe to MQTT topics.
 
-📈 Potential Features
+### 📈 Potential Features
 Web-based robot control interface
 
 Real-time telemetry (battery, position, etc.)
@@ -80,7 +80,7 @@ Autonomous navigation or remote/manual driving
 
 Cloud integration for data logging
 
-🧪 Testing Steps
+### 🧪 Testing Steps
 Power all components.
 
 Connect ESP modules to known Wi-Fi.
@@ -89,7 +89,7 @@ Monitor Serial logs to verify communication.
 
 Send commands via web/MQTT or serial to trigger robot motion or sensor readouts.
 
-🔧 Libraries Required
+### 🔧 Libraries Required
 Install in Arduino IDE via Library Manager or ZIP:
 
 WiFi.h / ESP8266WiFi.h
